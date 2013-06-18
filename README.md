@@ -13,18 +13,21 @@ No newlines after declaration.
 1 newline after relevant blocks.
 Visibility modifiers, even when default.
 
-public class A {
-  private final String DEFAULT_VAL = "MONKEY!";
-  private int age;
-  protected CommonObject commonObject;
+<blockquote>
+public class A { <br/>
+&nbsp;&nbsp;private final String DEFAULT_VAL = "MONKEY!"; <br/>
+&nbsp;&nbsp;private int age; <br/>
+&nbsp;&nbsp;protected CommonObject commonObject; <br/>
+</br>
+<p>  
+&nbsp;&nbsp;public A() { <br/> &nbsp;&nbsp;} </br>
   
-  public A() {}
-  
-  public A(int a) {
-    this.age = a;
-  }
+&nbsp;&nbsp;public A(int a) { <br/>
+&nbsp;&nbsp;this.age = a; <br/>
+  } </br>
   
   public void methodName() {
     return "a value";
   }
 }
+</blockquote>
